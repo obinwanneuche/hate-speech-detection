@@ -7,7 +7,7 @@ Fine-tuning a Llama 3.1 model for hate speech detection. The original and more d
 
 This project aims to demonstrate the application of Large Language Models in content moderation, showcasing the effectiveness of a fine-tuned Llama-3 model in a multiclass classification task, where the model distinguishes between hate speech, offensive language and normal (non-offensive) language. 
 
-The baseline model performs modestly on the test set, achieving an overall accuracy of 0.52. The model was then fine-tuned with [LoRA](https://arxiv.org/abs/2106.09685) and showed a significant increase in performance, achieving an overall accuracy of 0.89.
+The baseline model performs modestly on the test set, achieving an overall accuracy of 0.52. The model was then fine-tuned with [QLoRA](https://arxiv.org/abs/2305.14314) and showed a significant increase in performance, achieving an overall accuracy of 0.89.
 
 After fine-tuning, we quantized the model using the [GPTQ algorithm](https://arxiv.org/abs/2210.17323), leading to a slight drop in accuracy (0.87).
 
