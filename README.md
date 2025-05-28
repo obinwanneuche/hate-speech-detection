@@ -1,5 +1,5 @@
 # Hate Speech Detection
-Fine-tuning a Llama 3.1 model for hate speech detection
+Fine-tuning a Llama 3.1 model for hate speech detection. The original and more detailed Google Colab notebook with the outputs can be found <[HERE](https://colab.research.google.com/drive/1M0qKt0KPy4d4aeqGe1PIoVKRsm05D6z7?usp=drive_link)>
 
 **Warning: Most notebooks and images in this repository contain hateful and offensive language.**
 
